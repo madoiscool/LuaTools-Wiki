@@ -15,28 +15,28 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        LuaTools provides intuitive APIs and clear documentation to help you
+        get started quickly with Lua development.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Comprehensive Documentation',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Find everything you need in one place. From getting started guides to
+        advanced usage examples, we&apos;ve got you covered.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Powerful Tools',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        LuaTools offers a wide range of utilities and tools to enhance your
+        Lua development workflow and productivity.
       </>
     ),
   },

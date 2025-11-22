@@ -2,46 +2,55 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Welcome to LuaTools
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Welcome to the **LuaTools documentation**! This guide will help you get started with LuaTools and make the most of its powerful features.
+
+## What is LuaTools?
+
+LuaTools is a collection of powerful tools and utilities designed to enhance your Lua development experience. Whether you're a beginner or an experienced Lua developer, LuaTools provides the resources you need to build better applications.
 
 ## Getting Started
 
-Get started by **creating a new site**.
+### Prerequisites
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+Before you begin, make sure you have:
 
-### What you'll need
+- A basic understanding of the Lua programming language
+- Lua installed on your system (version 5.1 or higher recommended)
+- Your favorite code editor
 
-- [Node.js](https://nodejs.org/en/download/) version 20.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+### Installation
 
-## Generate a new site
+To get started with LuaTools, follow these steps:
 
-Generate a new Docusaurus site using the **classic template**.
+1. Clone or download the LuaTools repository
+2. Follow the installation instructions for your specific use case
+3. Start exploring the documentation
 
-The classic template will automatically be added to your project after you run the command:
+## Quick Start
 
-```bash
-npm init docusaurus@latest my-website classic
+Here's a simple example to get you started:
+
+```lua
+-- Your first LuaTools example
+local luatools = require("luatools")
+
+-- Use LuaTools functionality here
 ```
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+## Next Steps
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+- Explore the [documentation sections](/docs) to learn more about specific features
+- Check out the [examples](/docs/examples) to see LuaTools in action
+- Join our community to get help and share your experiences
 
-## Start your site
+## Need Help?
 
-Run the development server:
+If you have questions or need assistance:
 
-```bash
-cd my-website
-npm run start
-```
+- Browse the documentation for detailed guides
+- Check the [FAQ](/docs/faq) for common questions
+- Open an issue on [GitHub](https://github.com/madoiscool/LuaTools-Wiki/issues)
 
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+Let's get started with LuaTools! 🚀
