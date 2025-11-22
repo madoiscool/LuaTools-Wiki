@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunklua_tools_wiki=globalThis.webpackChunklua_tools_wiki||[]).push([[9858],{5516:l=>{l.exports=JSON.parse('{"name":"docusaurus-plugin-content-blog","id":"default"}')}}]);
