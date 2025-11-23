@@ -39,17 +39,25 @@ local luatools = require("luatools")
 -- Use LuaTools functionality here
 ```
 
+## Documentation Sections
+
+- **[LuaTools](/docs/luatools/discord)**: Discord community and Steam Plugin documentation
+- **[SteamTools](/docs/steamtools/what-is-steamtools)**: Learn about SteamTools and installation
+- **[Game Fixes](/docs/game-fixes/online)**: Solutions for common game issues
+- **[Resources](/docs/resources/oureveryday)**: Community resources and contributions
+
 ## Next Steps
 
 - Explore the documentation sections to learn more about specific features
 - Check out the available guides and tutorials
-- Join our community to get help and share your experiences
+- Join our [Discord community](/docs/luatools/discord) to get help and share your experiences
 
 ## Need Help?
 
 If you have questions or need assistance:
 
 - Browse the documentation for detailed guides
+- Join our [Discord community](/docs/luatools/discord)
 - Open an issue on [GitHub](https://github.com/madoiscool/LuaTools-Wiki/issues)
 
 Let's get started with LuaTools! 🚀

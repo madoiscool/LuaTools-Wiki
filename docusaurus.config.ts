@@ -6,8 +6,8 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'LuaTools',
-  tagline: 'Powerful tools and utilities for Lua development',
-  favicon: 'img/favicon.ico',
+  tagline: 'iykyk lol',
+  favicon: 'img/icon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -78,7 +78,7 @@ const config: Config = {
       title: 'LuaTools',
       logo: {
         alt: 'LuaTools Logo',
-        src: 'img/logo.svg',
+        src: 'img/icon.svg',
       },
       items: [
         {
