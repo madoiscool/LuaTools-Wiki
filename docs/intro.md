@@ -41,8 +41,8 @@ local luatools = require("luatools")
 
 ## Next Steps
 
-- Explore the [documentation sections](/docs) to learn more about specific features
-- Check out the [examples](/docs/examples) to see LuaTools in action
+- Explore the documentation sections to learn more about specific features
+- Check out the available guides and tutorials
 - Join our community to get help and share your experiences
 
 ## Need Help?
@@ -50,7 +50,6 @@ local luatools = require("luatools")
 If you have questions or need assistance:
 
 - Browse the documentation for detailed guides
-- Check the [FAQ](/docs/faq) for common questions
 - Open an issue on [GitHub](https://github.com/madoiscool/LuaTools-Wiki/issues)
 
 Let's get started with LuaTools! 🚀
