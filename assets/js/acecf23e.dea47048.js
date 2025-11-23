@@ -1,1 +1,0 @@
-"use strict";(globalThis.webpackChunklua_tools_wiki=globalThis.webpackChunklua_tools_wiki||[]).push([[1903],{1912:o=>{o.exports=JSON.parse('{"blogBasePath":"/LuaTools-Wiki/blog","blogTitle":"Blog","authorsListPath":"/LuaTools-Wiki/blog/authors"}')}}]);
