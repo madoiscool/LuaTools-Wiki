@@ -1,0 +1,8 @@
+{
+  "gameName": "Example Game 2",
+  "appId": 789012,
+  "bypassRequired": false,
+  "online": false,
+  "notes": "Single player game, no bypass needed. Works perfectly offline."
+}
+

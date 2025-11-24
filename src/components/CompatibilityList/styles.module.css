@@ -1,0 +1,135 @@
+.container {
+  margin: 2rem 0;
+}
+
+.searchContainer {
+  margin-bottom: 1.5rem;
+}
+
+.searchInput {
+  width: 100%;
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: 2px solid var(--ifm-color-emphasis-300);
+  border-radius: 8px;
+  background: var(--ifm-background-color);
+  color: var(--ifm-font-color-base);
+  transition: border-color 0.2s;
+}
+
+.searchInput:focus {
+  outline: none;
+  border-color: var(--ifm-color-primary);
+}
+
+.stats {
+  margin-bottom: 1rem;
+  color: var(--ifm-color-emphasis-700);
+  font-size: 0.9rem;
+}
+
+.tableContainer {
+  overflow-x: auto;
+  border-radius: 8px;
+  border: 1px solid var(--ifm-color-emphasis-300);
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  background: var(--ifm-background-color);
+}
+
+.table thead {
+  background: var(--ifm-color-emphasis-100);
+}
+
+.table th {
+  padding: 1rem;
+  text-align: left;
+  font-weight: 600;
+  color: var(--ifm-font-color-base);
+  border-bottom: 2px solid var(--ifm-color-emphasis-300);
+}
+
+.table td {
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid var(--ifm-color-emphasis-200);
+}
+
+.table tbody tr:hover {
+  background: var(--ifm-color-emphasis-50);
+}
+
+.table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.gameName {
+  font-weight: 500;
+  color: var(--ifm-color-primary);
+}
+
+.appIdLink {
+  color: var(--ifm-color-primary);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.appIdLink:hover {
+  text-decoration: underline;
+}
+
+.badgeSuccess,
+.badgeWarning,
+.badgeInfo {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  border-radius: 12px;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+.badgeSuccess {
+  background: rgba(34, 197, 94, 0.1);
+  color: rgb(34, 197, 94);
+}
+
+.badgeWarning {
+  background: rgba(251, 146, 60, 0.1);
+  color: rgb(251, 146, 60);
+}
+
+.badgeInfo {
+  background: rgba(59, 130, 246, 0.1);
+  color: rgb(59, 130, 246);
+}
+
+.notes {
+  color: var(--ifm-color-emphasis-700);
+  font-size: 0.9rem;
+}
+
+.loading,
+.error,
+.noResults {
+  text-align: center;
+  padding: 2rem;
+  color: var(--ifm-color-emphasis-700);
+}
+
+.error {
+  color: var(--ifm-color-danger);
+}
+
+@media (max-width: 768px) {
+  .table {
+    font-size: 0.85rem;
+  }
+
+  .table th,
+  .table td {
+    padding: 0.5rem;
+  }
+}
+

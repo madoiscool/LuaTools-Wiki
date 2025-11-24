@@ -1,0 +1,8 @@
+{
+  "gameName": "Test Game",
+  "appId": 345678,
+  "bypassRequired": true,
+  "online": false,
+  "notes": "Test entry for compatibility list. Requires bypass but doesn't need online features."
+}
+

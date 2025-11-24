@@ -1,0 +1,8 @@
+{
+  "gameName": "Example Game 1",
+  "appId": 123456,
+  "bypassRequired": true,
+  "online": true,
+  "notes": "This game requires a bypass for online features. Works well with SteamTools."
+}
+
