@@ -1,0 +1,23 @@
+[
+  {
+    "gameName": "Example Game 1",
+    "appId": 123456,
+    "bypassRequired": true,
+    "online": true,
+    "notes": "This game requires a bypass for online features. Works well with SteamTools."
+  },
+  {
+    "gameName": "Example Game 2",
+    "appId": 789012,
+    "bypassRequired": false,
+    "online": false,
+    "notes": "Single player game, no bypass needed. Works perfectly offline."
+  },
+  {
+    "gameName": "Test Game",
+    "appId": 345678,
+    "bypassRequired": true,
+    "online": false,
+    "notes": "Test entry for compatibility list. Requires bypass but doesn't need online features."
+  }
+]
