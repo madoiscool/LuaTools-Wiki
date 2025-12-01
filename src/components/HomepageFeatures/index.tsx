@@ -18,8 +18,8 @@ const FeatureList: FeatureItem[] = [
     image: require('@site/static/img/steam-plugin.png').default,
     description: (
       <>
-        LuaTools provides intuitive APIs and clear documentation to help you
-        get started quickly with Lua development.
+        The LuaTools Steam Plugin provides powerful tools and utilities for Lua
+        development within Steam. Get started with seamless integration and enhanced workflows.
       </>
     ),
     buttonText: 'View Plugin',
@@ -30,24 +30,24 @@ const FeatureList: FeatureItem[] = [
     image: require('@site/static/img/discord.png').default,
     description: (
       <>
-        Find everything you need in one place. From getting started guides to
-        advanced usage examples, we&apos;ve got you covered.
+        Join our Discord community to stay up to date with LuaTools updates,
+        get help, and connect with other developers.
       </>
     ),
     buttonText: 'Join Discord',
     buttonLink: '/docs/luatools/discord',
   },
   {
-    title: 'Wiki',
+    title: 'Game Fixes',
     image: require('@site/static/img/fixes.png').default,
     description: (
       <>
-        LuaTools offers a wide range of utilities and tools to enhance your
-        Lua development workflow and productivity.
+        Browse our community-maintained compatibility list to see which games
+        work with LuaTools and what bypasses or configurations are needed.
       </>
     ),
-    buttonText: 'Browse Wiki',
-    buttonLink: '/docs/intro',
+    buttonText: 'View Fixes',
+    buttonLink: '/docs/game-fix/all-fixes',
   },
 ];
 

@@ -46,21 +46,6 @@ const config: Config = {
           editUrl:
             'https://github.com/madoiscool/LuaTools-Wiki/tree/main/',
         },
-        blog: {
-          showReadingTime: true,
-          feedOptions: {
-            type: ['rss', 'atom'],
-            xslt: true,
-          },
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/madoiscool/LuaTools-Wiki/tree/main/',
-          // Useful options to enforce blogging best practices
-          onInlineTags: 'warn',
-          onInlineAuthors: 'warn',
-          onUntruncatedBlogPosts: 'warn',
-        },
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -87,7 +72,6 @@ const config: Config = {
           position: 'left',
           label: 'Documentation',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
         {
           href: 'https://github.com/madoiscool/LuaTools-Wiki',
           label: 'GitHub',
@@ -102,8 +86,12 @@ const config: Config = {
           title: 'Documentation',
           items: [
             {
-              label: 'Getting Started',
-              to: '/docs/intro',
+              label: 'Steam Plugin',
+              to: '/docs/luatools/steam-plugin',
+            },
+            {
+              label: 'Game Fixes',
+              to: '/docs/game-fix/all-fixes',
             },
           ],
         },
@@ -111,21 +99,16 @@ const config: Config = {
           title: 'Community',
           items: [
             {
+              label: 'Discord',
+              to: '/docs/luatools/discord',
+            },
+            {
               label: 'GitHub',
               href: 'https://github.com/madoiscool/LuaTools-Wiki',
             },
             {
               label: 'Issues',
               href: 'https://github.com/madoiscool/LuaTools-Wiki/issues',
-            },
-          ],
-        },
-        {
-          title: 'More',
-          items: [
-            {
-              label: 'Blog',
-              to: '/blog',
             },
           ],
         },

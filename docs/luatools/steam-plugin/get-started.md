@@ -2,35 +2,54 @@
 sidebar_position: 2
 ---
 
-# Get Started with Steam Plugin
+# Install LuaTools Plugin
 
-This guide will help you get started with the LuaTools Steam Plugin.
+[Click here for Video tutorial if you are confused (ENGLISH)](https://www.youtube.com/watch?v=Ebo_YoHGPtM&t=1s&pp=ygVRRlJFRSAxLUNsaWNrLUFkZCBTdGVhbSBQbHVnaW4gLSBTdGVhbVRvb2xzIGhhcyBuZXZlciBiZWVuIGJldHRlciAoR0FNRSBDSEFOR0lORyEp)
 
-## Prerequisites
+## Step 1. Make sure you have SteamTools installed
 
-Before you begin, make sure you have:
+Download Here (first option): https://steamtools.net/download.html
 
-- Steam installed and running
-- Basic knowledge of Lua programming
-- LuaTools account (if required)
+## Step 2. Install [Millennium](https://steambrew.app/)
 
-## Installation
+If you are on Windows simply open PowerShell, and paste this in:
 
-1. Download the Steam Plugin (link will be added)
-2. Install the plugin through Steam
-3. Launch Steam and verify the plugin is active
+```powershell
+iwr -useb "https://steambrew.app/install.ps1" | iex
+```
 
-## First Steps
+## Step 3. Install Plugin, Choose One:
 
-Once installed, you can:
+### 🟢 Easy Method
 
-1. Create a new Lua project
-2. Configure your development environment
-3. Start building your first tool
+[Download and run the installer](https://github.com/madoiscool/LuaTools/releases/latest/download/LuaToolsInstaller.exe)
+
+[Source code here](https://github.com/madoiscool/ltsp-updater)
+
+### 🟠 Manual Method (advanced users)
+
+1. Download the Plugin Files Latest Zip Here: [Latest Release](https://github.com/madoiscool/ltsteamplugin/releases)
+2. Navigate to your Steam directory (where `steam.exe` is located)
+3. Go to the `plugins` folder
+4. Create a new folder (name it whatever you want)
+5. Extract the zip contents into that folder
+
+**To find the plugins folder easily:**
+- Open Steam
+- Click the top left "Steam" button
+- Go to **Millennium** → **plugins** → **browse local files**
+
+## Step 4. Enable it in Millennium plugin settings
+
+1. Top left of Steam "Steam" button → **Millennium** → **plugins**
+2. Tick **LuaTools**
+3. Click **Save changes**
+4. Click **Yes** to restart
+
+Then go to a game page and if you don't have it added already, there will be an "Add via LuaTools" button.
 
 ## Next Steps
 
 - Learn more about [Steam Plugin features](../steam-plugin)
 - Join our [Discord community](../discord) for support
-- Check out [additional resources](../../resources/oureveryday)
 

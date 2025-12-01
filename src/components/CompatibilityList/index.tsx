@@ -9,7 +9,7 @@ interface GameCompatibility {
   notes: string;
 }
 
-export default function CompatibilityList(): JSX.Element {
+export default function CompatibilityList(): React.ReactElement {
   const [games, setGames] = useState<GameCompatibility[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
@@ -19,33 +19,28 @@ export default function CompatibilityList(): JSX.Element {
     async function fetchGames() {
       try {
         setLoading(true);
+        
+        // Fetch single aggregated JSON file from the deployed site
+        // This ensures we get the version that matches the deployed site
+        // Add cache-busting query parameter to prevent caching
+        const cacheBuster = `?t=${Date.now()}`;
         const response = await fetch(
-          'https://api.github.com/repos/madoiscool/LuaTools-Wiki/contents/community-compatibility-list',
+          `/community-compatibility-list/all-games.json${cacheBuster}`,
+          {
+            cache: 'no-store',
+            headers: {
+              'Cache-Control': 'no-cache, no-store, must-revalidate',
+              'Pragma': 'no-cache',
+              'Expires': '0',
+            },
+          },
         );
 
         if (!response.ok) {
           throw new Error('Failed to fetch games');
         }
 
-        const files = await response.json();
-        const jsonFiles = files.filter(
-          (file: {name: string; type: string}) =>
-            file.type === 'file' && file.name.endsWith('.json'),
-        );
-
-        const gameData: GameCompatibility[] = [];
-
-        for (const file of jsonFiles) {
-          try {
-            const fileResponse = await fetch(file.download_url);
-            if (fileResponse.ok) {
-              const game: GameCompatibility = await fileResponse.json();
-              gameData.push(game);
-            }
-          } catch (err) {
-            console.error(`Error loading ${file.name}:`, err);
-          }
-        }
+        const gameData: GameCompatibility[] = await response.json();
 
         setGames(gameData.sort((a, b) => a.gameName.localeCompare(b.gameName)));
         setError(null);

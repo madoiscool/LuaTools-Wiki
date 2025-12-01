@@ -14,7 +14,6 @@ import type {SidebarsConfig} from '@docusaurus/plugin-content-docs';
  */
 const sidebars: SidebarsConfig = {
   tutorialSidebar: [
-    'intro',
     {
       type: 'category',
       label: 'LuaTools',
@@ -32,37 +31,9 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
-      label: 'SteamTools',
-      items: [
-        'steamtools/what-is-steamtools',
-        'steamtools/how-to-install',
-        'steamtools/risks',
-      ],
-    },
-    {
-      type: 'category',
-      label: 'Game Fixes',
-      items: [
-        'game-fixes/online',
-        'game-fixes/drm',
-        'game-fixes/special',
-      ],
-    },
-    {
-      type: 'category',
       label: 'Game Fix',
       items: [
         'game-fix/all-fixes',
-      ],
-    },
-    {
-      type: 'category',
-      label: 'Resources',
-      items: [
-        'resources/oureveryday',
-        'resources/ryuu',
-        'resources/mike',
-        'resources/morrenus',
       ],
     },
   ],

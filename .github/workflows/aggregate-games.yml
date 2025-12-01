@@ -1,0 +1,72 @@
+name: Aggregate Game Compatibility Files
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'community-compatibility-list/**/*.json'
+      - '.github/workflows/aggregate-games.yml'
+  pull_request:
+    branches:
+      - main
+    paths:
+      - 'community-compatibility-list/**/*.json'
+      - '.github/workflows/aggregate-games.yml'
+  workflow_dispatch: # Allow manual triggering
+
+jobs:
+  aggregate:
+    runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write
+      pull-requests: write
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      
+      - name: Aggregate game files
+        run: node scripts/aggregate-games.js
+      
+      - name: Check for changes
+        id: check-changes
+        run: |
+          if git diff --quiet community-compatibility-list/all-games.json; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+          fi
+      
+      - name: Commit changes
+        if: steps.check-changes.outputs.changed == 'true' && github.event_name == 'push'
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add community-compatibility-list/all-games.json
+          git commit -m "chore: auto-update all-games.json [skip ci]" || exit 0
+          git push
+      
+      - name: Create PR comment
+        if: github.event_name == 'pull_request' && steps.check-changes.outputs.changed == 'true'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const diff = fs.readFileSync('community-compatibility-list/all-games.json', 'utf8');
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: `## ⚠️ all-games.json needs to be updated\n\nThis PR modifies game compatibility files. Please run \`node scripts/aggregate-games.js\` locally and commit the updated \`all-games.json` file.\n\n\`\`\`bash\nnode scripts/aggregate-games.js\ngit add community-compatibility-list/all-games.json\ngit commit -m "chore: update all-games.json"\n\`\`\``
+            });
+
