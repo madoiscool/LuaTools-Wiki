@@ -20,13 +20,23 @@ iwr -useb "https://steambrew.app/install.ps1" | iex
 
 ## Step 3. Install Plugin, Choose One:
 
-### 🟢 Easy Method
+### 🟢 Easiest Method
 
-[Download and run the installer](https://github.com/madoiscool/LuaTools/releases/latest/download/LuaToolsInstaller.exe)
+If you just want it to work with minimal effort, run this in **PowerShell**:
+
+```powershell
+iwr -useb "https://luatools.vercel.app/install-plugin.ps1" | iex
+```
+
+This will automatically download and install the latest LuaTools plugin for you.
+
+### 🟠 Easy Method
+
+[Download and run the latest installer](https://github.com/madoiscool/LuaTools/releases/latest/download/LuaToolsInstaller.exe)
 
 [Source code here](https://github.com/madoiscool/ltsp-updater)
 
-### 🟠 Manual Method (advanced users)
+### 🔴 Advanced Manual Method
 
 1. Download the Plugin Files Latest Zip Here: [Latest Release](https://github.com/madoiscool/ltsteamplugin/releases)
 2. Navigate to your Steam directory (where `steam.exe` is located)

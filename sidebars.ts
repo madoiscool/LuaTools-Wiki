@@ -34,6 +34,13 @@ const sidebars: SidebarsConfig = {
       label: 'Game Fix',
       items: [
         'game-fix/all-fixes',
+        {
+          type: 'category',
+          label: 'Common Errors',
+          items: [
+            'game-fix/common-errors',
+          ],
+        },
       ],
     },
   ],

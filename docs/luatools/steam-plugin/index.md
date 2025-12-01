@@ -4,20 +4,18 @@ sidebar_position: 1
 
 # Steam Plugin
 
-The LuaTools Steam Plugin provides powerful tools and utilities for Lua development within Steam.
+Download directly from Steam servers, with **uncapped speeds**.
 
-## Overview
+## What You Get
 
-The Steam Plugin extends LuaTools functionality directly into your Steam workflow, making it easier to develop and manage your Lua projects.
-
-## Features
-
-- Seamless integration with Steam
-- Enhanced development workflow
-- Easy project management
-- Real-time collaboration
+- **Full Steam experience** on all your added games (achievements, overlay, workshop, and more!)
+- **Free and unlimited access** to some of the best manifest sources in the scene
+- **Online-fixes and DRM/launcher bypasses** directly in the plugin
+- **Play most co-op games online** thanks to the unsteam implementation
+- **Unlock (almost) any DLC** – most games come with all the DLC when you add them
+- And **yes, even Denuvo games**: simply get your drink served at pub's and enjoy your game!
 
 ## Getting Started
 
-Ready to get started? Check out our [Get Started Guide](./get-started) to begin using the Steam Plugin.
+Ready to jump in? Check out our [Get Started Guide](./get-started) to begin using the Steam Plugin.
 
