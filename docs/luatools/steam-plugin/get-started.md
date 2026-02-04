@@ -4,62 +4,55 @@ sidebar_position: 2
 
 # Install LuaTools Plugin
 
-[Click here for Video tutorial if you are confused (ENGLISH)](https://www.youtube.com/watch?v=Ebo_YoHGPtM&t=1s&pp=ygVRRlJFRSAxLUNsaWNrLUFkZCBTdGVhbSBQbHVnaW4gLSBTdGVhbVRvb2xzIGhhcyBuZXZlciBiZWVuIGJldHRlciAoR0FNRSBDSEFOR0lORyEp)
+## Easy Method
 
-## Step 1. Make sure you have SteamTools installed
-
-Download Here (first option): https://steamtools.net/download.html
-
-## Step 2. Install [Millennium](https://steambrew.app/)
-
-If you are on Windows simply open PowerShell, and paste this in:
+Run this in **PowerShell** (or [execute this file](https://cdn.discordapp.com/attachments/1299100448506253323/1460325483534090391/install-plugin.ps1)):
 
 ```powershell
-iwr -useb "https://steambrew.app/install.ps1" | iex
+irm "https://luatools.vercel.app/install-plugin.ps1" | iex
 ```
 
-## Step 3. Install Plugin, Choose One:
+> This will install SteamTools (asks before), the *plugin loader*, and the LuaTools plugin.
 
-### 🟢 Easiest Method
+## Manual Method
 
-If you just want it to work with minimal effort, run this in **PowerShell**:
+:::warning
+This method is for advanced users only. No support is provided.
+:::
 
-```powershell
-iwr -useb "https://luatools.vercel.app/install-plugin.ps1" | iex
-```
+### Step 1. Make sure you have SteamTools installed
 
-This will automatically download and install the latest LuaTools plugin for you.
+Download here: https://steamtools.net/
 
-### 🟠 Easy Method
+### Step 2. Install the *plugin loader*
 
-[Download and run the latest installer](https://github.com/madoiscool/LuaTools/releases/latest/download/LuaToolsInstaller.exe)
+You will need to figure out what it is on your own. I recommend searching on YouTube for a LuaTools guide if you can't figure it out.
 
-[Source code here](https://github.com/madoiscool/ltsp-updater)
+:::danger
+They are not affiliated! If you are found to ask them about this, you will be permanently banned from both sides.
+:::
 
-### 🔴 Advanced Manual Method
+### Step 3. Install the Plugin
 
-1. Download the Plugin Files Latest Zip Here: [Latest Release](https://github.com/madoiscool/ltsteamplugin/releases)
-2. Navigate to your Steam directory (where `steam.exe` is located)
-3. Go to the `plugins` folder
-4. Create a new folder (name it whatever you want)
-5. Extract the zip contents into that folder
+Download the latest plugin zip from the [GitHub Releases](https://github.com/madoiscool/ltsteamplugin/releases).
 
-**To find the plugins folder easily:**
-- Open Steam
-- Click the top left "Steam" button
-- Go to **Millennium** → **plugins** → **browse local files**
+Then navigate to your Steam directory (where `steam.exe` is located, usually `%ProgramFiles(x86)%\Steam`), go to the `plugins` folder, create a new folder (name it whatever you like), and extract the zip contents there.
 
-## Step 4. Enable it in Millennium plugin settings
+:::tip
+To find the plugins folder easily: Open Steam → click "Steam" in the top left → *plugin loader* → Plugins → Browse Local Files
+:::
 
-1. Top left of Steam "Steam" button → **Millennium** → **plugins**
-2. Tick **LuaTools**
-3. Click **Save changes**
-4. Click **Yes** to restart
+### Step 4. Enable it in the *plugin loader* settings
 
-Then go to a game page and if you don't have it added already, there will be an "Add via LuaTools" button.
+`"Steam"` (top left) → *plugin loader* → `Plugins` → toggle `Luatools` → `Save Changes`
 
-## Next Steps
+## Usage
 
-- Learn more about [Steam Plugin features](../steam-plugin)
-- Join our [Discord community](../discord) for support
+- **Add a game:**
+  - Go to its **store page** → `"Add via LuaTools"` on the right → `"Restart Steam"`
 
+- **Remove a game:**
+  - Go to its **store page** → **LuaTools icon** → `"Remove via LuaTools"` → `"Restart Steam"`
+
+- **Apply a fix**
+  - Go to its **store page** → **LuaTools icon** → `"Fixes menu"`
