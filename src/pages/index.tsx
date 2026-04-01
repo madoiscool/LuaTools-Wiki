@@ -34,7 +34,7 @@ export default function Home(): ReactNode {
   return (
     <Layout
       title={`${siteConfig.title} - ${siteConfig.tagline}`}
-      description="Comprehensive documentation and guides for LuaTools - powerful tools and utilities for Lua development">
+      description="Comprehensive documentation and guides for LuaTools - powerful tools and utilities for Lua development Jk its steamtools shi lol">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
