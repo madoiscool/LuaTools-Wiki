@@ -17,28 +17,40 @@ const sidebars: SidebarsConfig = {
     {
       type: 'category',
       label: 'LuaTools',
+      collapsible: false,
       items: [
         'luatools/discord',
         {
           type: 'category',
           label: 'Steam Plugin',
+          collapsed: false,
           items: [
             'luatools/steam-plugin/index',
             'luatools/steam-plugin/get-started',
           ],
         },
-      ],
-    },
-    {
-      type: 'category',
-      label: 'Game Fix',
-      items: [
-        'game-fix/all-fixes',
         {
           type: 'category',
-          label: 'Common Errors',
+          label: 'Scripts',
+          collapsed: true,
           items: [
-            'game-fix/common-errors',
+            'luatools/scripts/index',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'Fixes',
+          collapsed: true,
+          items: [
+            'luatools/fixes/index',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'Guides',
+          collapsed: true,
+          items: [
+            'luatools/guides/index',
           ],
         },
       ],

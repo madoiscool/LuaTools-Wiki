@@ -15,7 +15,7 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://luatools.wiki',
+  url: 'https://wiki.lua.tools',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For custom domains, use '/'
   baseUrl: '/',
@@ -90,8 +90,16 @@ const config: Config = {
               to: '/docs/luatools/steam-plugin',
             },
             {
-              label: 'Game Fixes',
-              to: '/docs/game-fix/all-fixes',
+              label: 'Scripts',
+              to: '/docs/luatools/scripts',
+            },
+            {
+              label: 'Fixes',
+              to: '/docs/luatools/fixes',
+            },
+            {
+              label: 'Guides',
+              to: '/docs/luatools/guides',
             },
           ],
         },
@@ -100,7 +108,7 @@ const config: Config = {
           items: [
             {
               label: 'Discord',
-              to: '/docs/luatools/discord',
+              href: 'https://discord.gg/luatools',
             },
             {
               label: 'GitHub',

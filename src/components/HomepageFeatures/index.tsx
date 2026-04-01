@@ -18,36 +18,36 @@ const FeatureList: FeatureItem[] = [
     image: require('@site/static/img/steam-plugin.png').default,
     description: (
       <>
-        The LuaTools Steam Plugin provides powerful tools and utilities for Lua
-        development within Steam. Get started with seamless integration and enhanced workflows.
+        Achievements, overlay, workshop, DLC unlocking, online fixes, co-op via
+        unsteam, and Denuvo support — all in one plugin.
       </>
     ),
-    buttonText: 'View Plugin',
-    buttonLink: '/docs/luatools/steam-plugin',
-  },
-  {
-    title: 'Discord',
-    image: require('@site/static/img/discord.png').default,
-    description: (
-      <>
-        Join our Discord community to stay up to date with LuaTools updates,
-        get help, and connect with other developers.
-      </>
-    ),
-    buttonText: 'Join Discord',
-    buttonLink: '/docs/luatools/discord',
+    buttonText: 'Get Started',
+    buttonLink: '/docs/luatools/steam-plugin/get-started',
   },
   {
     title: 'Game Fixes',
     image: require('@site/static/img/fixes.png').default,
     description: (
       <>
-        Browse our community-maintained compatibility list to see which games
-        work with LuaTools and what bypasses or configurations are needed.
+        Game-specific patches, DRM bypasses, and online fixes. Apply them directly
+        from the plugin's Fixes menu on any game's store page.
       </>
     ),
-    buttonText: 'View Fixes',
-    buttonLink: '/docs/game-fix/all-fixes',
+    buttonText: 'Browse Fixes',
+    buttonLink: '/docs/luatools/fixes',
+  },
+  {
+    title: 'Discord',
+    image: require('@site/static/img/discord.png').default,
+    description: (
+      <>
+        Join the Discord to get updates when things change, ask for help, and stay
+        connected with the community.
+      </>
+    ),
+    buttonText: 'Join Discord',
+    buttonLink: 'https://discord.gg/luatools',
   },
 ];
 
