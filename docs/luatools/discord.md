@@ -2,10 +2,10 @@
 sidebar_position: 1
 ---
 
-# Discord (Reccomended)
+# Discord (Recommended)
 
 Join the discord to stay up to date about everything LuaTools (and everything else that might entail).
-Things break every now and then and we have to fix it, so it is reccomended to join to stay up to date :)
+Things break every now and then and we have to fix it, so it is recommended to join to stay up to date :)
 
 ## Join the Community
 
