@@ -1,0 +1,1 @@
+(globalThis.webpackChunklua_tools_wiki=globalThis.webpackChunklua_tools_wiki||[]).push([[741],{5741:()=>{}}]);
