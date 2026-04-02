@@ -35,6 +35,8 @@ const sidebars: SidebarsConfig = {
           collapsed: true,
           items: [
             'luatools/scripts/index',
+            'luatools/scripts/manifest-updater',
+
           ],
         },
         {

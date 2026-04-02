@@ -1,41 +1,27 @@
 # LuaTools Wiki
 
-Documentation website for LuaTools, built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+Documentation website for LuaTools, built with [Docusaurus](https://docusaurus.io/).
 
 ## Installation
 
 ```bash
-yarn
+npm install
 ```
 
 ## Local Development
 
 ```bash
-yarn start
+npm start
 ```
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+Starts a local dev server at `http://localhost:3000`. Most changes reflect live without restarting.
 
-## Build
+> Note: search does not work in dev mode. Use `npm run build && npm run serve` to test search locally.
 
-```bash
-yarn build
+## Deploy
+
+```powershell
+$env:GIT_USER="madoiscool"; npm run deploy
 ```
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-## Deployment
-
-Using SSH:
-
-```bash
-USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```bash
-GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+Builds the site and pushes directly to the `gh-pages` branch. Live at [wiki.lua.tools](https://wiki.lua.tools).
