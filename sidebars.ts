@@ -55,6 +55,15 @@ const sidebars: SidebarsConfig = {
             'luatools/guides/index',
           ],
         },
+        {
+          type: 'category',
+          label: 'FAQ',
+          collapsed: false,
+          items: [
+            'luatools/faq/powershellerror/index',
+            'luatools/faq/luatoolsmenu/index',
+          ],
+        },
       ],
     },
   ],
