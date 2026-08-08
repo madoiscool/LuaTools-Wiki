@@ -7,8 +7,14 @@ slug: /luatools/fixes
 
 Game-specific fixes, online patches, and DRM bypasses available through LuaTools.
 
-To apply a fix: open the game's Steam store page → click the LuaTools icon → open the **Fixes** menu.
+## Browse Fixes
 
-:::info Coming Soon
-Individual game fix pages are being added. Check the [Discord](https://discord.gg/luatools) for game-specific help in the meantime.
+All fixes are listed at **https://lua.tools/fixes**.
+
+## Apply a Fix
+
+Open the game's Steam store page → click the **LuaTools icon** → open the **Fixes** menu.
+
+:::tip
+Can't find a fix for your game? Ask in the [Discord](https://discord.gg/luatools).
 :::
