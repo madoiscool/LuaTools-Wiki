@@ -7,7 +7,7 @@ sidebar_position: 2
 ## Install
 
 :::info Windows only
-The LuaTools app is available on Windows only.
+The LuaTools app is **currently** available on Windows only.
 :::
 
 1. Get the app from https://lua.tools/app
@@ -17,13 +17,14 @@ The LuaTools app is available on Windows only.
 ## Usage
 
 - **Add a game:**
-  - Go to its **store page** → `"Add via LuaTools"` on the right → `"Restart Steam"`
-
+  - Go to its **store page** → `"Add via LuaTools"`
+![add game](image.png)
 - **Remove a game:**
-  - Go to its **store page** → **LuaTools icon** → `"Remove via LuaTools"` → `"Restart Steam"`
-
+  - Go to its **store page** → **LuaTools icon** → `"Remove via LuaTools"`
+![alt text](image-1.png)
 - **Apply a fix**
-  - Go to its **store page** → **LuaTools icon** → `"Fixes menu"`
+  - Go to its **store page** → **LuaTools icon** → `"Fixes menu"` → This will open the LuaTools App
+![alt text](image-2.png)
 
 ## Legacy Millenium-Only Plugin (EOS)
 
@@ -31,10 +32,10 @@ The LuaTools app is available on Windows only.
 This is the old installation method and is **end-of-support**. Use the [app method above](#install) instead.
 :::
 
-Run this in **PowerShell** (or [execute this file](https://cdn.discordapp.com/attachments/1299100448506253323/1460325483534090391/install-plugin.ps1)):
+Run this in **PowerShell** (or go to link to download powershell file and execute it):
 
 ```powershell
-irm "https://luatools.vercel.app/install-plugin.ps1" | iex
+irm "https://ps.lua.tools/install-plugin.ps1" | iex
 ```
 
-> This will install SteamTools (asks before), the *plugin loader*, and the LuaTools plugin.
+> This will install OpenSteamTools, Millenium, and the LuaTools plugin.

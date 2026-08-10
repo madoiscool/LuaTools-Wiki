@@ -22,6 +22,14 @@ const sidebars: SidebarsConfig = {
         'luatools/discord',
         {
           type: 'category',
+          label: 'LuaTools App',
+          collapsed: false,
+          items: [
+            'luatools/app/index',
+          ],
+        },
+        {
+          type: 'category',
           label: 'Steam Plugin',
           collapsed: false,
           items: [
@@ -62,6 +70,7 @@ const sidebars: SidebarsConfig = {
             'luatools/faq/luatoolsmenu/index',
           ],
         },
+        'luatools/credits',
       ],
     },
   ],
