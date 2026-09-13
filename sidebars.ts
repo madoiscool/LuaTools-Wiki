@@ -39,6 +39,15 @@ const sidebars: SidebarsConfig = {
         },
         {
           type: 'category',
+          label: 'BetterSteamTools',
+          collapsed: false,
+          items: [
+            'luatools/bettersteamtools/index',
+            'luatools/bettersteamtools/mrc-system',
+          ],
+        },
+        {
+          type: 'category',
           label: 'Scripts',
           collapsed: true,
           items: [

@@ -35,11 +35,16 @@ const config: Config = {
     locales: ['en'],
   },
 
+  markdown: {
+    mermaid: true,
+  },
+
   themes: [
     [
       require.resolve('@easyops-cn/docusaurus-search-local'),
       { hashed: true },
     ],
+    '@docusaurus/theme-mermaid',
   ],
 
   presets: [
@@ -65,6 +70,9 @@ const config: Config = {
     image: 'img/docusaurus-social-card.jpg',
     colorMode: {
       respectPrefersColorScheme: true,
+    },
+    mermaid: {
+      theme: { light: 'neutral', dark: 'dark' },
     },
     navbar: {
       title: 'LuaTools',
@@ -95,6 +103,10 @@ const config: Config = {
             {
               label: 'Steam Plugin',
               to: '/docs/luatools/steam-plugin',
+            },
+            {
+              label: 'BetterSteamTools',
+              to: '/docs/luatools/bettersteamtools',
             },
             {
               label: 'Scripts',
