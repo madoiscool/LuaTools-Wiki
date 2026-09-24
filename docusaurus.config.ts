@@ -5,8 +5,8 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'LuaTools',
-  tagline: 'iykyk lol',
+  title: 'LuaTools Wiki',
+  tagline: 'steam + ebk = welcome to luatools brother ☠️☠️☠️',
   favicon: 'img/icon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future

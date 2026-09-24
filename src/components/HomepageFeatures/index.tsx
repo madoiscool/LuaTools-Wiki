@@ -35,7 +35,7 @@ const FeatureList: FeatureItem[] = [
       </>
     ),
     buttonText: 'Browse Fixes',
-    buttonLink: '/docs/luatools/fixes',
+    buttonLink: 'https://lua.tools/fixes',
   },
   {
     title: 'Discord',

@@ -39,11 +39,22 @@ const sidebars: SidebarsConfig = {
         },
         {
           type: 'category',
-          label: 'BetterSteamTools',
-          collapsed: false,
+          label: 'About BetterSteamTools',
+          collapsed: true,
           items: [
             'luatools/bettersteamtools/index',
             'luatools/bettersteamtools/mrc-system',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'Guides',
+          collapsed: false,
+          items: [
+            'luatools/guides/index',
+            'luatools/guides/hubcapapi/index',
+            'luatools/guides/voices38/index',
+            'luatools/guides/onlinefix/index'
           ],
         },
         {
@@ -64,19 +75,12 @@ const sidebars: SidebarsConfig = {
         },
         {
           type: 'category',
-          label: 'Guides',
-          collapsed: true,
-          items: [
-            'luatools/guides/index',
-          ],
-        },
-        {
-          type: 'category',
           label: 'FAQ',
           collapsed: false,
           items: [
+            'luatools/faq/index',
             'luatools/faq/powershellerror/index',
-            'luatools/faq/luatoolsmenu/index',
+            'luatools/faq/luatoolsmenu/index'
           ],
         },
         'luatools/credits',

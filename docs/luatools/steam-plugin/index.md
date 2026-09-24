@@ -10,7 +10,7 @@ The famous LuaTools steam plugin :)
 ## What You Get
 
 - **Full Steam experience** on all your added games (achievements, overlay, workshop, and more!)
-- **Free aaccess** to some of the best manifest sources in the scene
+- **Free access** to some of the best manifest sources in the scene
 - **Online-fixes and DRM/launcher bypasses** directly in the plugin
 - **Unlock (almost) any DLC** – most games come with all the DLC when you add them
 - And **yes, even Denuvo games**: simply get your drink served at our [denuvo server](http://discord.gg/denuvo) and enjoy your game!

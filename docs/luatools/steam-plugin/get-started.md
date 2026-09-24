@@ -23,19 +23,19 @@ The LuaTools app is **currently** available on Windows only.
   - Go to its **store page** → **LuaTools icon** → `"Remove via LuaTools"`
 ![alt text](image-1.png)
 - **Apply a fix**
-  - Go to its **store page** → **LuaTools icon** → `"Fixes menu"` → This will open the LuaTools App
+  - Go to its **store page** → **LuaTools icon** → `"Fixes Menu"` → This will open the LuaTools App
 ![alt text](image-2.png)
 
-## Legacy Millenium-Only Plugin (EOS)
+## Legacy Millennium-Only Plugin (EOS)
 
 :::warning
 This is the old installation method and is **end-of-support**. Use the [app method above](#install) instead.
 :::
 
-Run this in **PowerShell** (or go to link to download powershell file and execute it):
+Run this in **PowerShell** (or go to link to download PowerShell file and execute it):
 
 ```powershell
 irm "https://ps.lua.tools/install-plugin.ps1" | iex
 ```
 
-> This will install OpenSteamTools, Millenium, and the LuaTools plugin.
+> This will install OpenSteamTools, Millennium, and the LuaTools plugin.

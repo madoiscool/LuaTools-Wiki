@@ -1,6 +1,6 @@
 # Powershell Error
 
-If you are getting something similiar to these in powershell then heres how you can fix it.
+If you are getting something similar to these in PowerShell then here's how you can fix it.
 
 ![onsend](image1.png)
 ![remoteserver](image2.png)
@@ -42,11 +42,11 @@ Now to do this one it's a bit more tricky. Don't worry there will be a video to 
 - Now focus on the bottom card where you will press **Use the following DNS server addresses:**.
 
 ### Cloudflare
-Perferred DNS Server: 1.1.1.1
+Preferred DNS Server: 1.1.1.1
 Alternate DNS Server: 1.0.0.1
 
 ### Google
-Perferred DNS Server: 8.8.8.8
+Preferred DNS Server: 8.8.8.8
 Alternate DNS Server: 8.8.4.4
 
 Those are the two we recommend. I went for Cloudflare for this demonstration.

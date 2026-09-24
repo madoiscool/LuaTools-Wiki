@@ -38,7 +38,7 @@ flowchart LR
 ```
 
 :::tip "manifests not ready" is not a broken install
-It means that exact version isn't in the archive yet. It's now on the list for donors to supply - try again later!.
+It means that exact version isn't in the archive yet. It's now on the list for donors to supply - try again later!
 :::
 
 ## When you donate
@@ -58,7 +58,7 @@ flowchart TD
 ```
 
 Steam tells the client what depot it owns so no extra requests are needed.
-You also donate for free just by playing: when you download a game you own normally, Steam mints a code as part of that download, and BetterSteamTools passes it along. That costs no extra requests!.
+You also donate for free just by playing: when you download a game you own normally, Steam mints a code as part of that download, and BetterSteamTools passes it along. That costs no extra requests!
 
 ## What leaves your PC — and what doesn't
 

@@ -21,7 +21,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/luatools/steam-plugin/get-started">
-            Get Started with LuaTools 🚀
+            Enter The Wiki 📔
           </Link>
         </div>
       </div>
