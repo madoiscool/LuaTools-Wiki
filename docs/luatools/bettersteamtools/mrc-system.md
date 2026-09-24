@@ -62,7 +62,7 @@ You also donate for free just by playing: when you download a game you own norma
 
 ## What leaves your PC — and what doesn't
 
-**What gets sent tou LuaTools servers anonymously:**
+**What gets sent to LuaTools servers anonymously:**
 
 - Depot and manifest IDs that were **already on the wanted list** *and* that you own.
 - The short-lived MRC for those.
