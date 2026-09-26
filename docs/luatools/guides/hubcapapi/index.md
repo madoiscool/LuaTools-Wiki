@@ -11,7 +11,7 @@ Hubcap is optional since Luie and Ryuu also pull manifests without the requireme
 :::
 
 ## How to get a Hubcap API key
-Step 1: First, join the [HubcapManifest](discord.gg/hubcapsmanifest) discord server and verify your account.
+Step 1: First, join the [HubcapManifest](https://discord.gg/hubcapsmanifest) discord server and verify your account.
 
 Step 2: Click the link shown in the first image and sign up there as well.
 
